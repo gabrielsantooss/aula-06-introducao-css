@@ -12,7 +12,7 @@
 background-color: #0F172A;
 color: #F8FAFC;
 ">
-    <header id="topo style"
+    <header id="topo style="
     style="background-color: #1E293B;
     padding: 28px 20px; text-align: center; border-bottom: 4px solid #38bDF8;">
         
@@ -39,36 +39,48 @@ color: #F8FAFC;
              font-weight:bold href="#ingressos">Ingressos</a>
         </nav>
     </header>
-    <main>
-        <Section id="destaque">
-            <article>
-                <h2>
+    <main style="max-width: 900px; margin: 28px auto; padding: 0 18px;">
+        <Section id="destaque" style="margin-bottom: 32px;">
+            <article style="
+                background-color: #1E293B;
+                padding: 24px;
+                border: 1px solid #334155;
+                border-radius: 14px;
+                ">
+                <h2 style="
+                margin-top: 0;
+                 color: #38bDF8;
+                 font-size: 24px; ">
                     Filme da Semana:
                      Desventuras do Coelho Jorge
                 </h2>
-                <video controls>
+                <video controls style="width: 100%; max-height: 360px; border-radius: 10px; background-color: #0F172A; border: 1px solid #475569;">
                     <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                 </video>
             </article>
 
         </Section>
-        <section id="horarios">
-            <h2>Tabela de Sessões e Preços</h2>
-            <table border="1">
+        <section id="horarios" style="margin-bottom: 32px;">
+            <h2 style="
+            color:#F8FAFC;
+            font-size: 22px;
+            margin-bottom: 14px;
+            ">Tabela de Sessões e Preços</h2>
+            <table border="1" style="width: 100%; border-collapse: background-color; #1E293B: border-radius: 10px">
                 <thead>
-                    <tr>
-                        <th>Sala</th>
-                        <th>Formato</th>
-                        <th>Horário</th>
-                        <th>Valor</th>
+                    <tr style="background-color:#0284C7; color:#FFFFFF; text-align: left;">
+                        <th style="padding: 14px; border: 1px solid #334155;">Sala</th>
+                        <th style="padding: 14px; border: 1px solid #334155;">Formato</th>
+                        <th style="padding: 14px; border: 1px solid #334155;">Horário</th>
+                        <th style="padding: 14px; border: 1px solid #334155;">Valor</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Sala 01</td>
-                        <td>IMAX 3D</td>
-                        <td>19:30</td>
-                        <td>36,00</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">Sala 01</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155">IMAX 3D</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155"></tdstyle>19:30</td>
+                        <td style="padding: 12px 14px; border: 1px solid #334155"></tdstyle>36,00</td>
                     </tr>
                     <tr>
                         <td>Sala 02</td>
@@ -81,38 +93,59 @@ color: #F8FAFC;
            
         </section>
 
-         <aside id="promocao">
-                <P>
+         <aside id="promocao" style="background-color: #1E293B;
+         border-left: 8px solid #F59E0B;
+         padding: 10px; 
+         border-radius: 8px;
+         margin-bottom: 32px; 
+
+         ">
+                <P style="margin: 0; line-height: 1.5; color: #FDE68A;">
                     Promoção da Semana: <b>Toda terça e quarta-feira 
                     meia entrada</b> 
                 </P>
             </aside>
 
-        <section id="ingressos">
+        <section id="ingressos" style="background-color: #1E293B; padding: 24px; border-radius: 14px; border: 1px solid #334155
+        ">
             <h2>Garanta seu Ingresso</h2>
             <form action="#">
-                <label for="">Nome Completo: </label>
-                <input type="text" 
+                <label for="nome_completo" style="
+                display: block;
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: #cbd5e1
+                
+                ">Nome Completo: </label>
+                <input style="width: 100%; padding: 11px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #475569; background-color:#0F172A color#FFFFFF; "type="text" 
                 id="nome_completo" 
                 name="nome_completo"
                 placeholder="Informe seu nome completo"
                         required>
-                <label for="email">Informe seu email</label>
-                <input
-                type="email"
+                <label for="email"display: block;
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: #cbd5e1
+                >Informe seu email</label>
+                <input style="width: 100%; padding: 11px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #475569; background-color:#0F172A color#FFFFFF;
+                " type="email"
                 id="email"
                 name="email"
                 placeholder="Informe seu email"
                          required>
 
-                <label for="quantidade">Quantidade de Ingressos</label>
-                <input
-                type="number"
+                <label for="quantidade"display: block;
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: #cbd5e1
+                >Quantidade de Ingressos</label>
+                <input style="width: 100%; padding: 11px; margin-bottom: 8px; border-radius: 8px; border: 1px solid #475569; background-color:#0F172A color#FFFFFF;
+                 " type="number"
                 id="quantidade"
                 name="quantidade"
                 placeholder="Informe a quantidade de ingressos"
                          required>
-                         <button type="submit">Confirmar compra de ingressos</button>
+                         <button style="background-color: #10b981; color:#052316; border: none; padding: 14px 28px; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; "type="submit">Confirmar compra de ingressos</button>
 
             </form>
 
